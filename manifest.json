@@ -1,0 +1,35 @@
+{
+ 
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+	"browser_action": {
+      "default_icon": "favicon.png",
+      "default_title": "SelectExtension2"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "mac": "Command+Shift+S",
+            "windows": "Ctrl+Shift+S"
+         }
+      }
+   },
+ 
+    
+   "description": "SelectExtension 3.0; sugerowana jedyna sluszna przegloądarka Opera",
+    
+    
+   "icons": {
+     "128": "favicon_128.png",
+     "16": "favicon_16.png",
+     "48": "favicon_48.png"
+   },
+
+   "manifest_version": 2,
+   "name": "SelectExtension 3.0",
+    "options_page": "options.html",
+   "permissions": [ "tabs", "contextMenus", "http://www.google.pl/search"],
+   "version": "3.0"
+}
+

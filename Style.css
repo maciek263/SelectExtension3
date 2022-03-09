@@ -1,0 +1,18 @@
+body {
+	font-family: Source Code Pro, Tahoma;
+	font-size: 10pt;
+	color: black;
+	background-color: #FFFFFF;
+	margin: 2mm;
+	width:250px;
+	height:250px;
+}
+strong {
+	color: ff0000;
+	
+}
+
+footer {
+	color: c3c3c3;
+	font-size: 6pt;
+}
